@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(97, 49, 160);
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  background-color: rgb(124, 26, 163);
+  text-align: center;
+  width: 500px;
+  margin: 50px;
+  margin-bottom: 0px;
+  padding: 50px;
+}
+
+.book-list {
+  background-color: rgb(124, 26, 163);
+  text-align: center;
+  width: 500px;
+  margin: 50px;
+  margin-top: 0px;
+  padding: 50px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.book-list ul{
+  list-style-type:none;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.book-list ul li{
+  font-size: 35px;
+  margin:10px;
+  padding: 5px;
+  background-color: rgb(91, 6, 124);
+  cursor: pointer;
+}
+
+.empty {
+  text-align: center;
+  background-color: rgb(91, 6, 124);
+  width: 500px;
+  margin: 50px;
+  margin-top: 0px;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+form {
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: rgb(91, 6, 124);
+  color: #fff;
+  border: 0;
+}
+input[type='submit']{
+  margin: 10px auto;
+  background: rgb(148, 33, 197);
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+  cursor: pointer;
 }
